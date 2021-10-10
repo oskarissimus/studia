@@ -1,3 +1,4 @@
+import java.lang.Math;
 public class Program7 {
     public static void main(String[] args) {
         int N = 153;
@@ -7,15 +8,15 @@ public class Program7 {
             D/=10;
             rzedowosc+=1;
         }
-        System.out.println(rzedowosc);
+        // System.out.println(rzedowosc);
         int pow_sum = 0;
         D = N;
 
         while (D!=0) {
             int R = D % 10;
             D /= 10;
-            pow_sum+=R^rzedowosc;
+            pow_sum+=Math.pow(R,rzedowosc);
         }
-        System.out.println(pow_sum);
+        System.out.println(pow_sum == N ? "narcystyczna" : "nie narcystyczna");
     }
 }
