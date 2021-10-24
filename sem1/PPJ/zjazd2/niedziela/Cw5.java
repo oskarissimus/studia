@@ -4,5 +4,7 @@ public class Cw5 {
         String o = a == b ? b == c ? "sa takie same" : "nie sa takie same" : "nie sa takie same";
         System.out.println(o);
     }
+
+    
     
 }
