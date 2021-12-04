@@ -1,6 +1,5 @@
 public class Cw1 {
     public static void main(String[] args) {
-        System.out.println("Hello World!");
         int[] x = splitToDigits(87695);
         for (int i = 0; i < x.length; i++) {
             System.out.print(x[i]);
