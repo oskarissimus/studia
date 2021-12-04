@@ -1,4 +1,4 @@
-public class Cw2 {
+public class Cw3 {
     public static void main(String[] args) {
         System.out.println("hello");
         int[][] x = calculateSquares(800, 600, 100);
