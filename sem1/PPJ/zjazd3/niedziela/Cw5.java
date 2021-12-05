@@ -13,10 +13,10 @@ public class Cw5 {
                 evenNumbersNo++;
         System.out.println("even numbers no: " + evenNumbersNo);
 
-        byte[] evenNumbersTab = new byte[evenNumbersNo];
+        // byte[] evenNumbersTab = new byte[evenNumbersNo];
         int oddNumbersNo = tabLen - evenNumbersNo;
         System.out.println("odd numbers no: " + oddNumbersNo);
-        byte[] oddNumbersTab = new byte[oddNumbersNo];
+        // byte[] oddNumbersTab = new byte[oddNumbersNo];
 
     }
 }
