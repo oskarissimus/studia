@@ -8,12 +8,8 @@ public class DeciduousTree extends Tree {
 
     @Override
     public String toString() {
-        return "DeciduousTree{" +
-                "alwaysGreen=" + alwaysGreen +
-                ", height=" + height +
-                ", crossSection='" + crossSection + '\'' +
-                ", leavesShape=" + leavesShape +
-                '}';
+        return super.toString() +
+                ", leavesShape=" + leavesShape;
     }
 
 }

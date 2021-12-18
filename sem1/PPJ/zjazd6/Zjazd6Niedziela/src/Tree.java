@@ -1,7 +1,7 @@
 public class Tree {
-    boolean alwaysGreen;
-    int height;
-    String crossSection;
+    private boolean alwaysGreen;
+    private int height;
+    private String crossSection;
 
     public Tree(boolean alwaysGreen, int height, String crossSection) {
         this.alwaysGreen = alwaysGreen;
@@ -14,7 +14,6 @@ public class Tree {
         return "Tree{" +
                 "alwaysGreen=" + alwaysGreen +
                 ", height=" + height +
-                ", crossSection='" + crossSection + '\'' +
-                '}';
+                ", crossSection='" + crossSection + '\'';
     }
 }

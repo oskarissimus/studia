@@ -8,10 +8,7 @@ public class FruitTree extends DeciduousTree {
 
     @Override
     public String toString() {
-        return "FruitTree{" +
-                "alwaysGreen=" + alwaysGreen +
-                ", height=" + height +
-                ", crossSection='" + crossSection + '\'' +
+        return super.toString() +
                 ", leavesShape=" + leavesShape +
                 ", fruitName='" + fruitName + '\'' +
                 '}';

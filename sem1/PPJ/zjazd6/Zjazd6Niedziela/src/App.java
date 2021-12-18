@@ -9,5 +9,9 @@ public class App {
         System.out.println(deciduousTree);
         FruitTree fruitTree = new FruitTree(true, 100, "10", 100, "Apple");
         System.out.println(fruitTree);
+        // Tree[] forest = new Tree[6];
+        // ConiferTree sosna = new ConiferTree(true, 100, "10", 100, 100);
+        // forest[0] = sosna;
+        // System.out.println(forest[0])
     }
 }

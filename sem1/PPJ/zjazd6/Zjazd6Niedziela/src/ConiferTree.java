@@ -10,10 +10,7 @@ public class ConiferTree extends Tree {
 
     @Override
     public String toString() {
-        return "Tree{" +
-                "alwaysGreen=" + alwaysGreen +
-                ", height=" + height +
-                ", crossSection='" + crossSection + '\'' +
+        return super.toString() +
                 ", needleQuantity=" + needleQuantity +
                 ", coneLength=" + coneLength +
                 '}';
